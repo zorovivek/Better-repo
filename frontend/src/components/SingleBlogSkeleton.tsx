@@ -14,6 +14,7 @@ export const SingleBlogSkeleton = () => {
               <div className="h-4 bg-slate-200 rounded w-full"></div>
               <div className="h-4 bg-slate-200 rounded w-11/12"></div>
               <div className="h-4 bg-slate-200 rounded w-2/3"></div>
+              <div className="h-4 bg-slate-200 rounded w-2/3"></div>
             </div>
           </div>
 

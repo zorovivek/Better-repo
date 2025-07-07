@@ -19,14 +19,15 @@ export const SignupForm = ({type}: {type: "signup" | "signin"}) => {
       localStorage.setItem("token",jwt)
       navigate("/blogs")
     } catch (e){
-      alert("Request Failed")
+      // Fancy alert
+      alert("Invalid Credentials")
       // Request Failed
     }
   }
 
     return <div className="h-screen flex justify-center items-center flex-col">
       <div className="text-3xl font-bold">
-        Create an account
+        {type==="signin" ? "Sign in" : "Create an account"}
       </div>
       <p className="mt-2 text-slate-500">{ type==="signin" ? "Don't have an account?": "Already have an account?"} <Link className="underline pl-1" to={type==="signin" ? "/signup" : "/signin"}>{type==="signin" ? "Sign up" : "Sign in"}</Link></p>
       <div className="mt-1">
