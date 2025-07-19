@@ -34,23 +34,25 @@ A full-stack blogging platform built with React, TypeScript, Node.js, and Prisma
 
 ## 📸 Screenshots
 
-> Add your screenshots in a `/public/screenshots/` folder and link below:
+> Add your screenshots in a `/public/screenshots/` folder and update the paths below:
 
 | Homepage | Editor | Blog View |
-|---------|--------|-----------|
+|----------|--------|-----------|
 | ![](./public/screenshots/home.png) | ![](./public/screenshots/editor.png) | ![](./public/screenshots/blog.png) |
 
 ---
 
-## 📁 Project Setup
+## 📁 Project Setup (with `npm`)
 
 ```bash
 # Install dependencies
-pnpm install
+npm install
 
-# Setup Prisma
-pnpm prisma generate
-pnpm prisma migrate dev --name init
+# Generate Prisma client
+npx prisma generate
 
-# Run dev server
-pnpm dev
+# Apply DB migrations
+npx prisma migrate dev --name init
+
+# Run development server
+npm run dev
