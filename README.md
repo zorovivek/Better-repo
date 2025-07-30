@@ -1,17 +1,4 @@
-# blogging-website
-
-A full-stack blogging platform built with React, TypeScript, Node.js, and Prisma. It allows users to write, publish, and read blog posts with features like a rich text editor, authentication, author profiles, and a responsive UI. Built for learning and deployment.
-
-[![View Live Site](https://img.shields.io/badge/Live%20Site-Visit-blue?style=for-the-badge&logo=vercel)](https://bit.ly/habibashraf)
-
-## 🌐 Deployed at
-**🔗 [bit.ly/habibashraf](https://bit.ly/habibashraf)**
-
-> Hosted on Vercel · Fully responsive · User-authenticated blog platform
-
----
-
-## 🚀 Technologies Used
+## Technologies Used
 
 - **Frontend**: React, TypeScript, Tailwind CSS
 - **Backend**: Node.js, Express
